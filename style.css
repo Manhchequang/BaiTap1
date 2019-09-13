@@ -1,0 +1,50 @@
+body{
+	background-color: #b3a7a7;
+}
+
+div {
+	border: 5px solid #542a2a;
+	border-radius: 15px 15px 15px 15px ;
+	margin: 20px;
+	color: green;
+	box-sizing: border-box;
+}
+ 
+#sidebar{
+	width: 300px;
+	height: 700px;
+	float: left;
+
+
+}
+#content{
+	width: 100%-300px;
+	height: 700px;
+	float: left;
+	overflow: auto;
+	position: relative;
+	background-color: yellow;
+}
+.clearfix {
+	overflow: auto;
+	border: none;
+	margin: 0px;
+
+}
+
+#div1, #div2{
+	float: left;
+	width: 420px;
+	height: 140px;
+	display: inline-block;
+	background-color: green;
+
+}
+#div2{
+	margin-left: 0px;
+}
+#div3{
+	margin-top: 0px;
+	height: 470px;
+
+}
